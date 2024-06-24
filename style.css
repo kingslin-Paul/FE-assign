@@ -1,0 +1,318 @@
+html{
+    font-style: normal;
+}
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-size:80px;
+   
+}
+
+.subH1{
+    font-size: 24px;
+    width: 606px;
+}
+
+.logo-name{
+ font-size: 1rem;
+}
+
+.counter-badge{
+    height: 20px;
+    width: 20px;
+    background-color: #E58411;
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+
+.bigImage{
+    background-image: url('./assets/BigImage.png');
+    width: 100vw;
+    height: 1084px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+
+}
+
+nav{
+    width: 478px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+input:focus {
+    box-shadow: none;
+    border: none;
+    background-color: transparent; 
+}
+
+.search-bar{
+    padding: 8px;
+    width: 344px;
+    border:1px rgba(255, 255, 255) solid ;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    border-radius: 42px;
+}
+
+.search-btn{
+    background-color: #E58411;
+    width: 40px;
+    height: 40px;
+}
+
+.features{
+    color: #1E1E1E;
+}
+
+.fea-head{
+    font-size: 42px;
+    font-family: bold;
+}
+
+.fea-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fea-para{
+    font-size: 16px;
+}
+
+.fea-link{
+    font-size: 14px;
+    color: #E58411!important;
+    
+}
+
+.products{
+    background: #F7F7F7;
+}
+
+.pro-head{
+    font-size: 42px;
+}
+
+.product-tabs{
+    background-color:#EEEEEE;
+    border-radius: 44px;
+    font-size :18px;
+    padding: 6px;
+}
+
+.product-tab{
+    display: flex;
+    max-width: 84px;
+    max-height: 45px;
+    padding: 8px;
+}
+
+.product-card{
+    max-width: 268px;
+    max-height: 441px;
+    border-radius: 20px;
+}
+
+.product-title{
+    font-size: 21px;
+}
+
+.Pcard-image-section{
+    background-color: #FAFAFA;
+    max-height: 200px;
+}
+
+.pcard-image{
+    position: relative;
+    bottom: 60px;
+}
+
+.Pshadow{
+   position: relative;
+   bottom:180px;
+}
+
+.Pcard-body{
+    background-color: #FFFFFF;
+}
+
+.active{
+    border-radius: 32px;
+    background: #FFF;
+}
+
+.add-btn{
+    background-color: #0D1B39;
+    width: 48px;
+    height: 48px;
+}
+
+.dollar-sym{
+    font-size: 15px;
+    color: #0D1B39;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 20px;
+    color: #0D1B39;
+    font-weight: 600;
+}
+
+footer{
+    background: #25282B;
+    font-size: 15px;
+    color:#FFF;
+    opacity: 0.8;
+}
+
+.footer-link-title{
+    color: #F6973F;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.social-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.hr-custom{
+    width: 100%;
+    border-top:1px #FFF solid ;
+    opacity: 0.3;
+    margin: 20px 0;
+    
+}
+
+.copyright-texts{
+    font-size: 15px;
+}
+
+
+
+@media (max-width: 575.98px) { 
+
+    h1{
+        font-size:28px; 
+    }
+
+    .subH1{
+        font-size: 14px;
+        width: 286px;
+    }
+
+    .bigImage{
+        background-image: url('./assets/BigImage.png');
+        height: 584px;
+        flex-shrink: 0;
+        background-repeat:round;
+    
+    }
+
+    .search-bar{
+        padding: 6px;
+        width: 196px;
+        
+        border-radius: 24px;
+    }
+
+    .search-btn{
+        width: 30px;
+        height: 30px;
+    }
+
+    .input{
+        font-size:small;
+    }
+
+    .hamburger{
+        width: 24px;
+        height: 24px;
+    }
+
+    nav{
+        width: auto;
+        position: absolute;
+    }
+
+    .activeNav{
+
+        display: none;
+        flex-direction: column;
+        position:absolute;
+        z-index: 10;
+        
+    }
+    .fea-head{
+        font-size: 24px;
+    }
+
+    .fea-title{
+        font-size: 20px;
+    }
+    
+    .fea-para{
+        font-size: 14px;
+    }
+
+    .fea-link{
+        font-size: 12px;
+    }
+
+    .pro-head{
+        font-size: 24px;
+    }
+
+    .product-tabs{
+        border-radius: 24px;
+        font-size :18px;
+        padding: 3px;
+    }
+
+    .product-tab{
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    footer{
+        font-size: 12px;    
+    }
+
+    .footer-link-title{
+        font-size: 14px;
+    }
+
+    .footer-ul{
+        padding: initial;
+    }
+
+    .horizontal-scroll{
+        overflow-x: auto;
+        /* white-space: nowrap; */
+        -webkit-overflow-scrolling: touch;  
+    }
+
+    .horizontal-scroll .product-card {
+        display: inline-block;
+        /* white-space: normal; */
+        margin-right: 1rem;
+    }
+
+
+
+
+
+
+
+
+    .copyright-texts{
+        font-size: 10px;
+    }
+ }
